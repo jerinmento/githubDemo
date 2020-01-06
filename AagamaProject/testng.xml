@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+//homework
+/**<test name="Regression1">
+  <groups>
+    <run>
+      <exclude name="brokenTests"  />
+      <include name="checkinTests"  />
+    </run>
+  </groups>**/
+
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test name="Test">
+    <classes>
+    <class name="javaprojectEkta.ParallelExecution1"/>
+      <class name="javaprojectEkta.ParallelExecution"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-30T20:50:21Z" name="Default suite" finished-at="2019-11-30T20:50:31Z" duration-ms="10170">
+    <groups>
+    </groups>
+    <test started-at="2019-11-30T20:50:21Z" name="Default test" finished-at="2019-11-30T20:50:31Z" duration-ms="10170">
+      <class name="javaprojectEkta.GoogleHomePageTitle">
+        <test-method is-config="true" signature="systemSetup()[pri:0, instance:javaprojectEkta.GoogleHomePageTitle@6295d394]" started-at="2019-11-30T12:50:21Z" name="systemSetup" finished-at="2019-11-30T12:50:29Z" duration-ms="8044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- systemSetup -->
+        <test-method signature="verifyGooglePageTitle()[pri:0, instance:javaprojectEkta.GoogleHomePageTitle@6295d394]" started-at="2019-11-30T12:50:29Z" name="verifyGooglePageTitle" finished-at="2019-11-30T12:50:29Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGooglePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:javaprojectEkta.GoogleHomePageTitle@6295d394]" started-at="2019-11-30T12:50:29Z" name="tearDown" finished-at="2019-11-30T12:50:31Z" duration-ms="2096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- javaprojectEkta.GoogleHomePageTitle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
